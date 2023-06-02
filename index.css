@@ -1,0 +1,209 @@
+body{
+  font-family: helvetica;
+}
+.header{
+    background-color: rgb(245, 179, 179);
+    padding: 20px;
+    text-align: center;
+}
+.header img{
+float: left;
+}
+.navpane {
+  display: block;
+  margin-left: auto;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: azure;
+  max-width: 600px;
+}
+
+li {
+  float: left;
+  display: block;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(245, 179, 179);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(221, 184, 184);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(221, 184, 184);;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* This is for the Personnel*/
+#personnel{
+  
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.personnel1{
+  
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.personnel1 p {
+  
+  font-size: 35px;
+  color: rgb(245, 179, 179);
+  display: block;
+}
+
+div.gallery {
+  
+  margin: 5px;
+  float: left;
+  width: 200px;
+}
+
+div.gallery img {
+  display: block;
+  margin-left: auto;
+  margin:auto;
+  width: 50%;
+  height: auto;
+  
+  
+}
+
+div.gallery img:hover{
+  visibility: visible;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+img{
+  border-radius: 100px;
+}
+.damilolainfo{
+  visibility: hidden;
+}
+
+/*THIS STRONG USED HERE APPLIES TO THE WHOLE PAGE*/
+strong {
+  color:rgb(245, 179, 179);
+}
+/*ABOUT US, VISION MISSION AND VALUES*/
+#aboutus{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+.aboutustitle{
+font-size: 35px;
+color:rgb(245, 179, 179);
+}
+.aboutuscontent{
+  display: block;
+  padding-left: 5%;
+  padding-right: 10%;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.visiontitle{
+  font-size: 27px;
+  color:rgb(245, 179, 179);
+  padding: 20px;
+ 
+}
+/*SERVICES*/
+#services{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+.servicestitle{
+font-size: 35px;
+color:rgb(245, 179, 179);
+}
+.servicescontent{
+  display: block;
+  padding-left: 5%;
+  padding-right: 10%;
+  text-align: justify;
+  font-size: 22px;
+}
+
+.servicestitle{
+  font-size: 27px;
+  color:rgb(245, 179, 179);
+  padding: 20px;
+ 
+}
+.servicessub{
+  font-size: 20px;
+  padding: 5px;
+  display: block;
+  padding-left: 5%;
+  padding-right: 10%;
+  text-align: justify;
+  
+}
+.servicessubtitle{
+  padding: 5px;
+  font-size: 22px;
+  color:rgb(245, 179, 179);
+  
+}
+#contactus{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.contactustitle{
+  margin-top: 450px;
+  font-size: 27px;
+  color:rgb(245, 179, 179);
+  padding: 20px;
+}
